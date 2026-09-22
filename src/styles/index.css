@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap");
+
+:root {
+  --ink: #16141c;
+  --paper: #f4f1eb;
+  --surface: #fffcf7;
+  --brass: #b08d57;
+  --brass-dark: #8c6a3a;
+  --champagne: #f3e6d0;
+  --line: #e4ddd2;
+  --muted: #6f6a64;
+  --body: #3f3a36;
+  --burgundy: #7a2832;
+  font-family: "DM Sans", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.55;
+  font-weight: 400;
+  color: var(--ink);
+  background-color: var(--paper);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1,
+h2,
+h3 {
+  font-family: Fraunces, Georgia, "Times New Roman", serif;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+button,
+a {
+  font-family: inherit;
+}
